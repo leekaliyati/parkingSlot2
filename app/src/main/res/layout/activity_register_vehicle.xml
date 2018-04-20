@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eded"
+    tools:context=".RegisterVehicle">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:hint="@string/name"
+                android:inputType="textPersonName"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="45dp" />
+
+            <EditText
+                android:id="@+id/editTextAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:hint="@string/address"
+                android:inputType="textPostalAddress"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="106dp" />
+
+            <EditText
+                android:id="@+id/editTextPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:hint="@string/phone"
+                android:inputType="phone"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <EditText
+                android:id="@+id/editTextMake"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="@string/make"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="246dp" />
+
+            <EditText
+                android:id="@+id/editTextModel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="@string/model"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="310dp" />
+            <EditText
+                android:id="@+id/editTextColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="@string/color"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="310dp" />
+
+            <EditText
+                android:id="@+id/editTextRegistrationNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:paddingTop="20dp"
+                android:inputType="textPersonName"
+                android:hint="Registration Number" />
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register Vehicle"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="373dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
